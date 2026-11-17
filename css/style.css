@@ -1,10 +1,10 @@
 /* ===== CORES E FONTES DA MARCA (identidade visual) ===== */
 :root {
-  --roxo: #4a1d5e;
-  --roxo-claro: #efe6f3;
-  --verde: #2e7d32;
-  --creme: #f7f3ea;
-  --texto: #222222;
+  --cinza-escuro: #262A24;
+  --amarelo: #fcc80d;
+  --verde: #1ba300;
+  --verde-escuro: #1A5328;
+  --texto: #000000;
   --erro: #b3261e;
   --fonte: Arial, Helvetica, sans-serif;
 }
@@ -19,7 +19,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: var(--texto);
-  background: var(--creme);
+  background: var(--verde-escuro);
 }
 
 img {
@@ -38,7 +38,7 @@ img {
   align-items: center;
   gap: 8px;
   padding: 10px 16px;
-  background: var(--roxo);
+  background: var(--cinza-escuro);
 }
 
 .marca {
@@ -76,13 +76,13 @@ img {
 .inicio {
   padding: 48px 16px;
   text-align: center;
-  background: var(--roxo-claro);
+  background: var(--amarelo);
 }
 
 .inicio h1 {
   margin: 0 0 12px;
   font-size: 28px;
-  color: var(--roxo);
+  color: var(--cinza-escuro);
 }
 
 /* ===== BOTÃO (usado no Início e no formulário) ===== */
@@ -123,7 +123,7 @@ textarea:focus-visible {
 .secao h2 {
   margin-top: 0;
   font-size: 24px;
-  color: var(--roxo);
+  color: var(--cinza-escuro);
 }
 
 /* ===== CATÁLOGO ===== */
@@ -137,17 +137,17 @@ textarea:focus-visible {
 .filtro {
   min-height: 44px;
   padding: 8px 16px;
-  border: 2px solid var(--roxo);
+  border: 2px solid var(--cinza-escuro);
   border-radius: 20px;
-  background: #ffffff;
-  color: var(--roxo);
+  background: #1ba300c7;
+  color: #ffffff;
   font-size: 15px;
   cursor: pointer;
 }
 
 .filtro.ativo {
-  background: var(--roxo);
-  color: #ffffff;
+  background: var(--cinza-escuro);
+  color: var(--amarelo);
 }
 
 .cards {
@@ -185,15 +185,20 @@ textarea:focus-visible {
   color: var(--verde);
 }
 
+#catalogo h2{
+  color: var(--amarelo);
+}
+
 /* ===== SOBRE ===== */
 .sobre-blocos {
   display: grid;
   gap: 16px;
+  color: #ffffff;
 }
 
 .sobre-blocos h3 {
   margin-bottom: 4px;
-  color: var(--roxo);
+  color: var(--amarelo);
 }
 
 .sobre-blocos ul {
@@ -205,13 +210,33 @@ address {
   font-style: normal;
 }
 
+#sobre {
+  color: #ffffff;
+}
+
+#sobre h2{
+  color: var(--amarelo);
+}
+
+
+
 /* ===== FORMULÁRIO DE CONTATO ===== */
 .formulario {
   display: flex;
   flex-direction: column;
   gap: 6px;
   max-width: 520px;
+  color: var(--amarelo);
 }
+
+#contato{
+  color: #ffffff;
+}
+
+#contato h2{
+  color: var(--amarelo);
+}
+
 
 .formulario label {
   font-weight: bold;
@@ -249,7 +274,7 @@ address {
 .rodape {
   padding: 20px 16px;
   text-align: center;
-  background: var(--roxo);
+  background: var(--cinza-escuro);
   color: #ffffff;
   font-size: 14px;
 }

@@ -1,4 +1,4 @@
-# Açaí da Rita
+# Bike MAIS
 
 Site institucional de exemplo de loja de ciclismo, em Candeias (BA). Modelo do docente para o Projeto Integrador de Projeto de Front-End (SENAI). O negócio e os dados de contato são fictícios.
 

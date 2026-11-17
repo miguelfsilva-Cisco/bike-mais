@@ -1,11 +1,10 @@
-# Açaí da Rita
+# Bike MAIS
 
-Site institucional de exemplo da Açaí da Rita, em Candeias (BA). Modelo do docente para o Projeto Integrador de Projeto de Front-End (SENAI). O negócio e os dados de contato são fictícios.
+Site institucional de exemplo de loja de ciclismo, em Candeias (BA). Modelo do docente para o Projeto Integrador de Projeto de Front-End (SENAI). O negócio e os dados de contato são fictícios.
 
-Site publicado: https://andersongomesmeireles.github.io/acai-da-rita/
-
+Site publicado: https://miguelfsilva-cisco.github.io/bike-mais/
 ## Funcionalidades
-- Cardápio com filtro por categoria
+- Tabela de preçosgit  com filtro por categoria
 - Formulário de pedido com validação
 
 ## Tecnologias

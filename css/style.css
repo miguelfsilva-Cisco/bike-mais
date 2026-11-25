@@ -2,13 +2,12 @@
 :root {
   --cinza-escuro: #262A24;
   --amarelo: #fcc80d;
-  --verde: #1ba300;
+  --verde: #137a00;
   --verde-escuro: #1A5328;
   --texto: #000000;
   --erro: #b3261e;
   --fonte: Arial, Helvetica, sans-serif;
-}
-
+} 
 * {
   box-sizing: border-box;
 }

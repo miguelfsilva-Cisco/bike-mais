@@ -8,7 +8,7 @@ A Bike MAIS é uma oficina e loja de bicicletas localizada em Candeias (BA), cri
 - João Miguel Souza — Scrum Master
 - Sarah de Azevedo — Apresentadora
 - Rafael Fires — Product Owner
-- Gabriel da Cruz — Documentador
+- Gabriel da Cruz — Documentador 
 
 **Site publicado:** https://miguelfsilva-cisco.github.io/bike-mais/
 ## Funcionalidades
